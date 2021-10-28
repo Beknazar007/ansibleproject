@@ -1,0 +1,9 @@
+---
+- name: test hello 
+  hosts: all
+  become: yes
+
+  tasks: 
+  - name: Ping 
+    
+      
