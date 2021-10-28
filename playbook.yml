@@ -1,9 +1,9 @@
 ---
-- name: test hello 
+- name: AWX project
   hosts: all
   become: yes
 
-  tasks: 
-  - name: Ping 
+  roles: 
+    - test
     
       

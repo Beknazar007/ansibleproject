@@ -1,2 +1,0 @@
-linux1 ansible_hosts=3.85.39.10
-linux2 ansible_hosts=54.83.144.187

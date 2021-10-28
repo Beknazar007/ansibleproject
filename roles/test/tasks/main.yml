@@ -1,0 +1,8 @@
+---
+# tasks file for deploy_apache_web
+- block: 
+    - name: Install Apache
+      yum: name=httpd state=latest
+    - name: Start Web Server Service 
+      service: name=httpd state=latest enabled=yes
+  when: ansible_os_family== "Debian"    
